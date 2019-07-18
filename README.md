@@ -2,7 +2,7 @@
 run: 
 
 ```bash
-$sbt`
+$sbt
 ```
 
 `sbt>reStart`
