@@ -19,7 +19,6 @@ case object HelpMenu extends Page
 case object NotFoundMenu extends Page
 
 object Menu {
-  //val ipWS = "10.51.253.205"
   val ipWS = "localhost"
   val portWS = "8090"
 

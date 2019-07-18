@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="xiimbal maak"
+		module="client_sjs0.6_2.12"
+		revision="0.1.0-SNAPSHOT"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool, phantom-js-jetty"
+		date="20190718120426"/>
+	<dependencies>
+		<module organisation="org.scala-js" name="scalajs-java-time_sjs0.6_2.12">
+			<revision name="0.2.4" status="release" pubdate="20180328150925" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="49">
+				<license name="BSD New" url="https://github.com/scala-js/scala-js-java-time/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2982" time="0" location="/home/elyphas/.ivy2/cache/org.scala-js/scalajs-java-time_sjs0.6_2.12/ivy-0.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-java-time_sjs0.6_2.12/0.2.4/scalajs-java-time_sjs0.6_2.12-0.2.4.pom"/>
+				<caller organisation="xiimbal maak" name="client_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="0.2.4" rev-constraint-default="0.2.4" rev-constraint-dynamic="0.2.4" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalajs-java-time_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="163291" time="0" location="/home/elyphas/.ivy2/cache/org.scala-js/scalajs-java-time_sjs0.6_2.12/jars/scalajs-java-time_sjs0.6_2.12-0.2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-java-time_sjs0.6_2.12/0.2.4/scalajs-java-time_sjs0.6_2.12-0.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_sjs0.6_2.12">
+			<revision name="2.3.3" status="release" pubdate="20171231085207" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="48">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3549" time="0" location="/home/elyphas/.ivy2/cache/com.chuusai/shapeless_sjs0.6_2.12/ivy-2.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_sjs0.6_2.12/2.3.3/shapeless_sjs0.6_2.12-2.3.3.pom"/>
+				<caller organisation="xiimbal maak" name="client_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.3.3" rev-constraint-default="2.3.3" rev-constraint-dynamic="2.3.3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="shapeless_sjs0.6_2.12" type="bundle" ext="jar" status="no" details="" size="5872471" time="0" location="/home/elyphas/.ivy2/cache/com.chuusai/shapeless_sjs0.6_2.12/bundles/shapeless_sjs0.6_2.12-2.3.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_sjs0.6_2.12/2.3.3/shapeless_sjs0.6_2.12-2.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.clovellytech" name="outwatch-router_sjs0.6_2.12">
+			<revision name="0.0.7" status="release" pubdate="20190605185417" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/clovellytech/outwatch-router" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="43">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3248" time="0" location="/home/elyphas/.ivy2/cache/com.clovellytech/outwatch-router_sjs0.6_2.12/ivy-0.0.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/clovellytech/outwatch-router_sjs0.6_2.12/0.0.7/outwatch-router_sjs0.6_2.12-0.0.7.pom"/>
+				<caller organisation="xiimbal maak" name="client_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.7" rev-constraint-default="0.0.7" rev-constraint-dynamic="0.0.7" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="outwatch-router_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="64621" time="0" location="/home/elyphas/.ivy2/cache/com.clovellytech/outwatch-router_sjs0.6_2.12/jars/outwatch-router_sjs0.6_2.12-0.0.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/clovellytech/outwatch-router_sjs0.6_2.12/0.0.7/outwatch-router_sjs0.6_2.12-0.0.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.github.outwatch" name="outwatch">
+			<revision name="676f94a" status="release" pubdate="20190524124015" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<metadata-artifact status="no" details="" size="2847" time="0" location="/home/elyphas/.ivy2/cache/io.github.outwatch/outwatch/ivy-676f94a.xml" searched="false" origin-is-local="false" origin-location="https://jitpack.io/io/github/outwatch/outwatch/676f94a/outwatch-676f94a.pom"/>
+				<caller organisation="com.clovellytech" name="outwatch-router_sjs0.6_2.12" conf="default, compile, runtime, master" rev="676f94a" rev-constraint-default="676f94a" rev-constraint-dynamic="676f94a" callerrev="0.0.7"/>
+				<artifacts>
+					<artifact name="outwatch" type="jar" ext="jar" status="no" details="" size="295" time="0" location="/home/elyphas/.ivy2/cache/io.github.outwatch/outwatch/jars/outwatch-676f94a.jar">
+						<origin-location is-local="false" location="https://jitpack.io/io/github/outwatch/outwatch/676f94a/outwatch-676f94a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.github.outwatch.outwatch" name="build_2.12">
+			<revision name="676f94a" status="release" pubdate="20190524124028" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://outwatch.github.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="47">
+				<license name="Apache 2" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2650" time="0" location="/home/elyphas/.ivy2/cache/io.github.outwatch.outwatch/build_2.12/ivy-676f94a.xml" searched="false" origin-is-local="false" origin-location="https://jitpack.io/io/github/outwatch/outwatch/build_2.12/676f94a/build_2.12-676f94a.pom"/>
+				<caller organisation="io.github.outwatch" name="outwatch" conf="compile, runtime" rev="676f94a" rev-constraint-default="676f94a" rev-constraint-dynamic="676f94a" callerrev="676f94a"/>
+				<artifacts>
+					<artifact name="build_2.12" type="jar" ext="jar" status="no" details="" size="309" time="0" location="/home/elyphas/.ivy2/cache/io.github.outwatch.outwatch/build_2.12/jars/build_2.12-676f94a.jar">
+						<origin-location is-local="false" location="https://jitpack.io/io/github/outwatch/outwatch/build_2.12/676f94a/build_2.12-676f94a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.github.outwatch.outwatch" name="bench_sjs0.6_2.12">
+			<revision name="676f94a" status="release" pubdate="20190524124022" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://outwatch.github.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="Apache 2" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3120" time="0" location="/home/elyphas/.ivy2/cache/io.github.outwatch.outwatch/bench_sjs0.6_2.12/ivy-676f94a.xml" searched="false" origin-is-local="false" origin-location="https://jitpack.io/io/github/outwatch/outwatch/bench_sjs0.6_2.12/676f94a/bench_sjs0.6_2.12-676f94a.pom"/>
+				<caller organisation="io.github.outwatch" name="outwatch" conf="compile, runtime" rev="676f94a" rev-constraint-default="676f94a" rev-constraint-dynamic="676f94a" callerrev="676f94a"/>
+				<artifacts>
+					<artifact name="bench_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="19681" time="0" location="/home/elyphas/.ivy2/cache/io.github.outwatch.outwatch/bench_sjs0.6_2.12/jars/bench_sjs0.6_2.12-676f94a.jar">
+						<origin-location is-local="false" location="https://jitpack.io/io/github/outwatch/outwatch/bench_sjs0.6_2.12/676f94a/bench_sjs0.6_2.12-676f94a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.github.outwatch.outwatch" name="outwatch_sjs0.6_2.12">
+			<revision name="676f94a" status="release" pubdate="20190524124025" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://outwatch.github.io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="Apache 2" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3849" time="0" location="/home/elyphas/.ivy2/cache/io.github.outwatch.outwatch/outwatch_sjs0.6_2.12/ivy-676f94a.xml" searched="false" origin-is-local="false" origin-location="https://jitpack.io/io/github/outwatch/outwatch/outwatch_sjs0.6_2.12/676f94a/outwatch_sjs0.6_2.12-676f94a.pom"/>
+				<caller organisation="io.github.outwatch" name="outwatch" conf="compile, runtime" rev="676f94a" rev-constraint-default="676f94a" rev-constraint-dynamic="676f94a" callerrev="676f94a"/>
+				<caller organisation="io.github.outwatch.outwatch" name="bench_sjs0.6_2.12" conf="compile, runtime" rev="676f94a" rev-constraint-default="676f94a" rev-constraint-dynamic="676f94a" callerrev="676f94a"/>
+				<artifacts>
+					<artifact name="outwatch_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="1625607" time="0" location="/home/elyphas/.ivy2/cache/io.github.outwatch.outwatch/outwatch_sjs0.6_2.12/jars/outwatch_sjs0.6_2.12-676f94a.jar">
+						<origin-location is-local="false" location="https://jitpack.io/io/github/outwatch/outwatch/outwatch_sjs0.6_2.12/676f94a/outwatch_sjs0.6_2.12-676f94a.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.github.outwatch" name="outwatch_sjs0.6_2.12">
+			<revision name="0.11.1-SNAPSHOT" status="integration" pubdate="20190605095057" resolver="local" artresolver="local" homepage="https://outwatch.github.io/" downloaded="false" searched="true" default="false" conf="compile, default(compile)" position="29">
+				<license name="Apache 2" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3286" time="0" location="/home/elyphas/.ivy2/cache/io.github.outwatch/outwatch_sjs0.6_2.12/ivy-0.11.1-SNAPSHOT.xml" searched="true" origin-is-local="true" origin-location="/home/elyphas/.ivy2/local/io.github.outwatch/outwatch_sjs0.6_2.12/0.11.1-SNAPSHOT/ivys/ivy.xml"/>
+				<caller organisation="xiimbal maak" name="client_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="0.11.1-SNAPSHOT" rev-constraint-default="0.11.1-SNAPSHOT" rev-constraint-dynamic="0.11.1-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="outwatch_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="1625607" time="0" location="/home/elyphas/.ivy2/local/io.github.outwatch/outwatch_sjs0.6_2.12/0.11.1-SNAPSHOT/jars/outwatch_sjs0.6_2.12.jar">
+						<origin-location is-local="true" location="/home/elyphas/.ivy2/local/io.github.outwatch/outwatch_sjs0.6_2.12/0.11.1-SNAPSHOT/jars/outwatch_sjs0.6_2.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-effect_sjs0.6_2.12">
+			<revision name="1.3.0" status="release" pubdate="20190501132935" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://typelevel.org/cats-effect/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="32">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3624" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-effect_sjs0.6_2.12/ivy-1.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-effect_sjs0.6_2.12/1.3.0/cats-effect_sjs0.6_2.12-1.3.0.pom"/>
+				<caller organisation="io.monix" name="monix-execution_sjs0.6_2.12" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="3.0.0-RC2"/>
+				<caller organisation="io.monix" name="monix-execution_sjs0.6_2.12" conf="compile, runtime" rev="0.10" rev-constraint-default="0.10" rev-constraint-dynamic="0.10" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.github.outwatch.outwatch" name="outwatch_sjs0.6_2.12" conf="compile, runtime" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="676f94a"/>
+				<caller organisation="io.github.outwatch" name="outwatch_sjs0.6_2.12" conf="compile" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.11.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cats-effect_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="1713501" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-effect_sjs0.6_2.12/jars/cats-effect_sjs0.6_2.12-1.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-effect_sjs0.6_2.12/1.3.0/cats-effect_sjs0.6_2.12-1.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.10" status="release" pubdate="20180316051839" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://typelevel.org/cats-effect/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/"/>
+				<metadata-artifact status="no" details="" size="3621" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-effect_sjs0.6_2.12/ivy-0.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-effect_sjs0.6_2.12/0.10/cats-effect_sjs0.6_2.12-0.10.pom"/>
+				<evicted-by rev="1.3.0"/>
+				<caller organisation="io.monix" name="monix-execution_sjs0.6_2.12" conf="compile, runtime" rev="0.10" rev-constraint-default="0.10" rev-constraint-dynamic="0.10" callerrev="3.0.0-RC1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.0.0" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default(compile)" position="-1">
+				<evicted-by rev="1.3.0"/>
+				<caller organisation="io.monix" name="monix-execution_sjs0.6_2.12" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="3.0.0-RC2"/>
+				<caller organisation="io.monix" name="monix-execution_sjs0.6_2.12" conf="compile, runtime" rev="0.10" rev-constraint-default="0.10" rev-constraint-dynamic="0.10" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.github.outwatch" name="outwatch_sjs0.6_2.12" conf="compile" rev="1.3.0" rev-constraint-default="1.3.0" rev-constraint-dynamic="1.3.0" callerrev="0.11.1-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-core_sjs0.6_2.12">
+			<revision name="1.6.0" status="release" pubdate="20190131125446" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="33">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3669" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-core_sjs0.6_2.12/ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-core_sjs0.6_2.12/1.6.0/cats-core_sjs0.6_2.12-1.6.0.pom"/>
+				<caller organisation="org.typelevel" name="cats-effect_sjs0.6_2.12" conf="compile, runtime" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="1.3.0"/>
+				<caller organisation="io.github.outwatch.outwatch" name="outwatch_sjs0.6_2.12" conf="compile, runtime" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="676f94a"/>
+				<caller organisation="org.typelevel" name="cats-effect_sjs0.6_2.12" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.10"/>
+				<caller organisation="com.github.cornerman.sloth" name="sloth_sjs0.6_2.12" conf="default, compile, runtime, master" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="206b005"/>
+				<caller organisation="io.github.outwatch" name="outwatch_sjs0.6_2.12" conf="compile" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="0.11.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="cats-core_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="8841759" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-core_sjs0.6_2.12/jars/cats-core_sjs0.6_2.12-1.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-core_sjs0.6_2.12/1.6.0/cats-core_sjs0.6_2.12-1.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.1.0" status="release" pubdate="20180316154000" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3669" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-core_sjs0.6_2.12/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-core_sjs0.6_2.12/1.1.0/cats-core_sjs0.6_2.12-1.1.0.pom"/>
+				<evicted-by rev="1.6.0"/>
+				<caller organisation="org.typelevel" name="cats-effect_sjs0.6_2.12" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.10"/>
+				<caller organisation="com.github.cornerman.sloth" name="sloth_sjs0.6_2.12" conf="default, compile, runtime, master" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="206b005"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.0.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.1.0"/>
+				<caller organisation="org.typelevel" name="cats-effect_sjs0.6_2.12" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.10"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-kernel_sjs0.6_2.12">
+			<revision name="1.6.0" status="release" pubdate="20190131125250" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3212" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-kernel_sjs0.6_2.12/ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_sjs0.6_2.12/1.6.0/cats-kernel_sjs0.6_2.12-1.6.0.pom"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.1.0"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="1.6.0"/>
+				<artifacts>
+					<artifact name="cats-kernel_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="7459010" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-kernel_sjs0.6_2.12/jars/cats-kernel_sjs0.6_2.12-1.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_sjs0.6_2.12/1.6.0/cats-kernel_sjs0.6_2.12-1.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.1.0" status="release" pubdate="20180316153823" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3079" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-kernel_sjs0.6_2.12/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_sjs0.6_2.12/1.1.0/cats-kernel_sjs0.6_2.12-1.1.0.pom"/>
+				<evicted-by rev="1.6.0"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-macros_sjs0.6_2.12">
+			<revision name="1.6.0" status="release" pubdate="20190131125138" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3232" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-macros_sjs0.6_2.12/ivy-1.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_sjs0.6_2.12/1.6.0/cats-macros_sjs0.6_2.12-1.6.0.pom"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.1.0"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="1.6.0"/>
+				<artifacts>
+					<artifact name="cats-macros_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="8272" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-macros_sjs0.6_2.12/jars/cats-macros_sjs0.6_2.12-1.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_sjs0.6_2.12/1.6.0/cats-macros_sjs0.6_2.12-1.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.1.0" status="release" pubdate="20180316153726" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3232" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-macros_sjs0.6_2.12/ivy-1.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_sjs0.6_2.12/1.1.0/cats-macros_sjs0.6_2.12-1.1.0.pom"/>
+				<evicted-by rev="1.6.0"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="1.1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="machinist_sjs0.6_2.12">
+			<revision name="0.6.6" status="release" pubdate="20181026140119" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3087" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/machinist_sjs0.6_2.12/ivy-0.6.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_sjs0.6_2.12/0.6.6/machinist_sjs0.6_2.12-0.6.6.pom"/>
+				<caller organisation="org.typelevel" name="cats-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.6" rev-constraint-default="0.6.6" rev-constraint-dynamic="0.6.6" callerrev="1.6.0"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="1.1.0"/>
+				<caller organisation="org.typelevel" name="cats-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="1.1.0"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="0.6.6" rev-constraint-default="0.6.6" rev-constraint-dynamic="0.6.6" callerrev="1.6.0"/>
+				<artifacts>
+					<artifact name="machinist_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="59606" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/machinist_sjs0.6_2.12/jars/machinist_sjs0.6_2.12-0.6.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/machinist_sjs0.6_2.12/0.6.6/machinist_sjs0.6_2.12-0.6.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.6.2" status="release" pubdate="20170531222744" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3087" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/machinist_sjs0.6_2.12/ivy-0.6.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_sjs0.6_2.12/0.6.2/machinist_sjs0.6_2.12-0.6.2.pom"/>
+				<evicted-by rev="0.6.6"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="1.1.0"/>
+				<caller organisation="org.typelevel" name="cats-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="1.1.0"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.raquo" name="domtypes_sjs0.6_2.12">
+			<revision name="0.9.4" status="release" pubdate="20190224002349" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/raquo/scala-dom-types" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="42">
+				<license name="MIT" url="https://github.com/raquo/scala-dom-types/blob/master/LICENSE.md"/>
+				<metadata-artifact status="no" details="" size="3119" time="0" location="/home/elyphas/.ivy2/cache/com.raquo/domtypes_sjs0.6_2.12/ivy-0.9.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/raquo/domtypes_sjs0.6_2.12/0.9.4/domtypes_sjs0.6_2.12-0.9.4.pom"/>
+				<caller organisation="io.github.outwatch.outwatch" name="outwatch_sjs0.6_2.12" conf="compile, runtime" rev="0.9.4" rev-constraint-default="0.9.4" rev-constraint-dynamic="0.9.4" callerrev="676f94a"/>
+				<caller organisation="io.github.outwatch" name="outwatch_sjs0.6_2.12" conf="compile" rev="0.9.4" rev-constraint-default="0.9.4" rev-constraint-dynamic="0.9.4" callerrev="0.11.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="domtypes_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="492684" time="0" location="/home/elyphas/.ivy2/cache/com.raquo/domtypes_sjs0.6_2.12/jars/domtypes_sjs0.6_2.12-0.9.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/raquo/domtypes_sjs0.6_2.12/0.9.4/domtypes_sjs0.6_2.12-0.9.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12">
+			<revision name="0.9.7" status="release" pubdate="20190426045727" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="41">
+				<license name="MIT" url="http://opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2941" time="0" location="/home/elyphas/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.12/ivy-0.9.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.7/scalajs-dom_sjs0.6_2.12-0.9.7.pom"/>
+				<caller organisation="com.github.cornerman.mycelium" name="mycelium_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.9.6" rev-constraint-default="0.9.6" rev-constraint-dynamic="0.9.6" callerrev="44906c6"/>
+				<caller organisation="com.raquo" name="domtypes_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.9.6" rev-constraint-default="0.9.6" rev-constraint-dynamic="0.9.6" callerrev="0.9.4"/>
+				<caller organisation="com.github.cornerman" name="covenant-http_sjs0.6_2.12" conf="compile" rev="0.9.6" rev-constraint-default="0.9.6" rev-constraint-dynamic="0.9.6" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="io.github.outwatch.outwatch" name="outwatch_sjs0.6_2.12" conf="compile, runtime" rev="0.9.7" rev-constraint-default="0.9.7" rev-constraint-dynamic="0.9.7" callerrev="676f94a"/>
+				<caller organisation="io.github.outwatch" name="outwatch_sjs0.6_2.12" conf="compile" rev="0.9.7" rev-constraint-default="0.9.7" rev-constraint-dynamic="0.9.7" callerrev="0.11.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalajs-dom_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="1970749" time="0" location="/home/elyphas/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.12/jars/scalajs-dom_sjs0.6_2.12-0.9.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.7/scalajs-dom_sjs0.6_2.12-0.9.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.9.6" status="release" pubdate="20180520111345" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://scala-js.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="-1">
+				<license name="MIT" url="http://opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2941" time="0" location="/home/elyphas/.ivy2/cache/org.scala-js/scalajs-dom_sjs0.6_2.12/ivy-0.9.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-dom_sjs0.6_2.12/0.9.6/scalajs-dom_sjs0.6_2.12-0.9.6.pom"/>
+				<evicted-by rev="0.9.7"/>
+				<caller organisation="com.github.cornerman.mycelium" name="mycelium_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.9.6" rev-constraint-default="0.9.6" rev-constraint-dynamic="0.9.6" callerrev="44906c6"/>
+				<caller organisation="com.raquo" name="domtypes_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.9.6" rev-constraint-default="0.9.6" rev-constraint-dynamic="0.9.6" callerrev="0.9.4"/>
+				<caller organisation="com.github.cornerman" name="covenant-http_sjs0.6_2.12" conf="compile" rev="0.9.6" rev-constraint-default="0.9.6" rev-constraint-dynamic="0.9.6" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.monix" name="monix_sjs0.6_2.12">
+			<revision name="3.0.0-RC2" status="release" pubdate="20181106023128" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://monix.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="30">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3695" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix_sjs0.6_2.12/ivy-3.0.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix_sjs0.6_2.12/3.0.0-RC2/monix_sjs0.6_2.12-3.0.0-RC2.pom"/>
+				<caller organisation="io.github.outwatch.outwatch" name="outwatch_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC2" rev-constraint-default="3.0.0-RC2" rev-constraint-dynamic="3.0.0-RC2" callerrev="676f94a"/>
+				<caller organisation="com.github.cornerman" name="covenant-core_sjs0.6_2.12" conf="compile" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="io.github.outwatch" name="outwatch_sjs0.6_2.12" conf="compile" rev="3.0.0-RC2" rev-constraint-default="3.0.0-RC2" rev-constraint-dynamic="3.0.0-RC2" callerrev="0.11.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="monix_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="1773" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix_sjs0.6_2.12/jars/monix_sjs0.6_2.12-3.0.0-RC2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/monix/monix_sjs0.6_2.12/3.0.0-RC2/monix_sjs0.6_2.12-3.0.0-RC2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.0.0-RC1" status="release" pubdate="20180318024530" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://monix.io" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="-1">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3540" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix_sjs0.6_2.12/ivy-3.0.0-RC1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix_sjs0.6_2.12/3.0.0-RC1/monix_sjs0.6_2.12-3.0.0-RC1.pom"/>
+				<evicted-by rev="3.0.0-RC2"/>
+				<caller organisation="com.github.cornerman" name="covenant-core_sjs0.6_2.12" conf="compile" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.monix" name="monix-reactive_sjs0.6_2.12">
+			<revision name="3.0.0-RC2" status="release" pubdate="20181106023219" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://monix.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3653" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix-reactive_sjs0.6_2.12/ivy-3.0.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix-reactive_sjs0.6_2.12/3.0.0-RC2/monix-reactive_sjs0.6_2.12-3.0.0-RC2.pom"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC2" rev-constraint-default="3.0.0-RC2" rev-constraint-dynamic="3.0.0-RC2" callerrev="3.0.0-RC2"/>
+				<artifacts>
+					<artifact name="monix-reactive_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="2345381" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix-reactive_sjs0.6_2.12/jars/monix-reactive_sjs0.6_2.12-3.0.0-RC2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/monix/monix-reactive_sjs0.6_2.12/3.0.0-RC2/monix-reactive_sjs0.6_2.12-3.0.0-RC2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.0.0-RC1" status="release" pubdate="20180318024529" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://monix.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3652" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix-reactive_sjs0.6_2.12/ivy-3.0.0-RC1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix-reactive_sjs0.6_2.12/3.0.0-RC1/monix-reactive_sjs0.6_2.12-3.0.0-RC1.pom"/>
+				<evicted-by rev="3.0.0-RC2"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.monix" name="monix-tail_sjs0.6_2.12">
+			<revision name="3.0.0-RC2" status="release" pubdate="20181106021337" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://monix.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3618" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix-tail_sjs0.6_2.12/ivy-3.0.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix-tail_sjs0.6_2.12/3.0.0-RC2/monix-tail_sjs0.6_2.12-3.0.0-RC2.pom"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC2" rev-constraint-default="3.0.0-RC2" rev-constraint-dynamic="3.0.0-RC2" callerrev="3.0.0-RC2"/>
+				<artifacts>
+					<artifact name="monix-tail_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="1053605" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix-tail_sjs0.6_2.12/jars/monix-tail_sjs0.6_2.12-3.0.0-RC2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/monix/monix-tail_sjs0.6_2.12/3.0.0-RC2/monix-tail_sjs0.6_2.12-3.0.0-RC2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.0.0-RC1" status="release" pubdate="20180318024408" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://monix.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3640" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix-tail_sjs0.6_2.12/ivy-3.0.0-RC1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix-tail_sjs0.6_2.12/3.0.0-RC1/monix-tail_sjs0.6_2.12-3.0.0-RC1.pom"/>
+				<evicted-by rev="3.0.0-RC2"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.monix" name="monix-eval_sjs0.6_2.12">
+			<revision name="3.0.0-RC2" status="release" pubdate="20181106021408" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://monix.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3643" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix-eval_sjs0.6_2.12/ivy-3.0.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix-eval_sjs0.6_2.12/3.0.0-RC2/monix-eval_sjs0.6_2.12-3.0.0-RC2.pom"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-tail_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-reactive_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC2" rev-constraint-default="3.0.0-RC2" rev-constraint-dynamic="3.0.0-RC2" callerrev="3.0.0-RC2"/>
+				<caller organisation="io.monix" name="monix-reactive_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC2" rev-constraint-default="3.0.0-RC2" rev-constraint-dynamic="3.0.0-RC2" callerrev="3.0.0-RC2"/>
+				<artifacts>
+					<artifact name="monix-eval_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="1025212" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix-eval_sjs0.6_2.12/jars/monix-eval_sjs0.6_2.12-3.0.0-RC2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/monix/monix-eval_sjs0.6_2.12/3.0.0-RC2/monix-eval_sjs0.6_2.12-3.0.0-RC2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.0.0-RC1" status="release" pubdate="20180318024335" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://monix.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3487" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix-eval_sjs0.6_2.12/ivy-3.0.0-RC1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix-eval_sjs0.6_2.12/3.0.0-RC1/monix-eval_sjs0.6_2.12-3.0.0-RC1.pom"/>
+				<evicted-by rev="3.0.0-RC2"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-tail_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-reactive_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.monix" name="monix-catnap_sjs0.6_2.12">
+			<revision name="3.0.0-RC2" status="release" pubdate="20181106023040" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://monix.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3494" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix-catnap_sjs0.6_2.12/ivy-3.0.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix-catnap_sjs0.6_2.12/3.0.0-RC2/monix-catnap_sjs0.6_2.12-3.0.0-RC2.pom"/>
+				<caller organisation="io.monix" name="monix-eval_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC2" rev-constraint-default="3.0.0-RC2" rev-constraint-dynamic="3.0.0-RC2" callerrev="3.0.0-RC2"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC2" rev-constraint-default="3.0.0-RC2" rev-constraint-dynamic="3.0.0-RC2" callerrev="3.0.0-RC2"/>
+				<artifacts>
+					<artifact name="monix-catnap_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="236522" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix-catnap_sjs0.6_2.12/jars/monix-catnap_sjs0.6_2.12-3.0.0-RC2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/monix/monix-catnap_sjs0.6_2.12/3.0.0-RC2/monix-catnap_sjs0.6_2.12-3.0.0-RC2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.monix" name="monix-execution_sjs0.6_2.12">
+			<revision name="3.0.0-RC2" status="release" pubdate="20181106021137" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://monix.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3803" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix-execution_sjs0.6_2.12/ivy-3.0.0-RC2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix-execution_sjs0.6_2.12/3.0.0-RC2/monix-execution_sjs0.6_2.12-3.0.0-RC2.pom"/>
+				<caller organisation="io.monix" name="monix-catnap_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC2" rev-constraint-default="3.0.0-RC2" rev-constraint-dynamic="3.0.0-RC2" callerrev="3.0.0-RC2"/>
+				<caller organisation="io.monix" name="monix-eval_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC2" rev-constraint-default="3.0.0-RC2" rev-constraint-dynamic="3.0.0-RC2" callerrev="3.0.0-RC2"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-tail_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-reactive_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC2" rev-constraint-default="3.0.0-RC2" rev-constraint-dynamic="3.0.0-RC2" callerrev="3.0.0-RC2"/>
+				<caller organisation="io.monix" name="monix-reactive_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC2" rev-constraint-default="3.0.0-RC2" rev-constraint-dynamic="3.0.0-RC2" callerrev="3.0.0-RC2"/>
+				<caller organisation="io.monix" name="monix-eval_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-tail_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC2" rev-constraint-default="3.0.0-RC2" rev-constraint-dynamic="3.0.0-RC2" callerrev="3.0.0-RC2"/>
+				<artifacts>
+					<artifact name="monix-execution_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="1397954" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix-execution_sjs0.6_2.12/jars/monix-execution_sjs0.6_2.12-3.0.0-RC2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/monix/monix-execution_sjs0.6_2.12/3.0.0-RC2/monix-execution_sjs0.6_2.12-3.0.0-RC2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="3.0.0-RC1" status="release" pubdate="20180318024333" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="https://monix.io" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="APL2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3801" time="0" location="/home/elyphas/.ivy2/cache/io.monix/monix-execution_sjs0.6_2.12/ivy-3.0.0-RC1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/monix/monix-execution_sjs0.6_2.12/3.0.0-RC1/monix-execution_sjs0.6_2.12-3.0.0-RC1.pom"/>
+				<evicted-by rev="3.0.0-RC2"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-tail_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-reactive_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-eval_sjs0.6_2.12" conf="compile, runtime" rev="3.0.0-RC1" rev-constraint-default="3.0.0-RC1" rev-constraint-dynamic="3.0.0-RC1" callerrev="3.0.0-RC1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="xiimbal maak" name="shared_sjs0.6_2.12">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20190718120425" resolver="inter-project" artresolver="inter-project" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="1">
+				<metadata-artifact status="failed" details="" size="0" time="0" searched="false"/>
+				<caller organisation="xiimbal maak" name="client_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.cornerman" name="covenant-ws_sjs0.6_2.12">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20190613094651" resolver="local" artresolver="local" downloaded="false" searched="true" default="false" conf="compile, default(compile)" position="27">
+				<metadata-artifact status="no" details="" size="3108" time="0" location="/home/elyphas/.ivy2/cache/com.github.cornerman/covenant-ws_sjs0.6_2.12/ivy-0.1.0-SNAPSHOT.xml" searched="true" origin-is-local="true" origin-location="/home/elyphas/.ivy2/local/com.github.cornerman/covenant-ws_sjs0.6_2.12/0.1.0-SNAPSHOT/ivys/ivy.xml"/>
+				<caller organisation="xiimbal maak" name="shared_sjs0.6_2.12" conf="compile" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="covenant-ws_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="58468" time="0" location="/home/elyphas/.ivy2/local/com.github.cornerman/covenant-ws_sjs0.6_2.12/0.1.0-SNAPSHOT/jars/covenant-ws_sjs0.6_2.12.jar">
+						<origin-location is-local="true" location="/home/elyphas/.ivy2/local/com.github.cornerman/covenant-ws_sjs0.6_2.12/0.1.0-SNAPSHOT/jars/covenant-ws_sjs0.6_2.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.cornerman.mycelium" name="mycelium_sjs0.6_2.12">
+			<revision name="44906c6" status="release" pubdate="20181114124858" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="28">
+				<metadata-artifact status="no" details="" size="3579" time="0" location="/home/elyphas/.ivy2/cache/com.github.cornerman.mycelium/mycelium_sjs0.6_2.12/ivy-44906c6.xml" searched="false" origin-is-local="false" origin-location="https://jitpack.io/com/github/cornerman/mycelium/mycelium_sjs0.6_2.12/44906c6/mycelium_sjs0.6_2.12-44906c6.pom"/>
+				<caller organisation="com.github.cornerman" name="covenant-ws_sjs0.6_2.12" conf="compile" rev="44906c6" rev-constraint-default="44906c6" rev-constraint-dynamic="44906c6" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="mycelium_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="171247" time="0" location="/home/elyphas/.ivy2/cache/com.github.cornerman.mycelium/mycelium_sjs0.6_2.12/jars/mycelium_sjs0.6_2.12-44906c6.jar">
+						<origin-location is-local="false" location="https://jitpack.io/com/github/cornerman/mycelium/mycelium_sjs0.6_2.12/44906c6/mycelium_sjs0.6_2.12-44906c6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.cornerman" name="covenant-http_sjs0.6_2.12">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20190613094651" resolver="local" artresolver="local" downloaded="false" searched="true" default="false" conf="compile, default(compile)" position="13">
+				<metadata-artifact status="no" details="" size="3104" time="0" location="/home/elyphas/.ivy2/cache/com.github.cornerman/covenant-http_sjs0.6_2.12/ivy-0.1.0-SNAPSHOT.xml" searched="true" origin-is-local="true" origin-location="/home/elyphas/.ivy2/local/com.github.cornerman/covenant-http_sjs0.6_2.12/0.1.0-SNAPSHOT/ivys/ivy.xml"/>
+				<caller organisation="xiimbal maak" name="shared_sjs0.6_2.12" conf="compile" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="covenant-http_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="41895" time="0" location="/home/elyphas/.ivy2/local/com.github.cornerman/covenant-http_sjs0.6_2.12/0.1.0-SNAPSHOT/jars/covenant-http_sjs0.6_2.12.jar">
+						<origin-location is-local="true" location="/home/elyphas/.ivy2/local/com.github.cornerman/covenant-http_sjs0.6_2.12/0.1.0-SNAPSHOT/jars/covenant-http_sjs0.6_2.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.cornerman" name="covenant-core_sjs0.6_2.12">
+			<revision name="0.1.0-SNAPSHOT" status="integration" pubdate="20190613094647" resolver="local" artresolver="local" downloaded="false" searched="true" default="false" conf="compile, default(compile)" position="14">
+				<metadata-artifact status="no" details="" size="3303" time="0" location="/home/elyphas/.ivy2/cache/com.github.cornerman/covenant-core_sjs0.6_2.12/ivy-0.1.0-SNAPSHOT.xml" searched="true" origin-is-local="true" origin-location="/home/elyphas/.ivy2/local/com.github.cornerman/covenant-core_sjs0.6_2.12/0.1.0-SNAPSHOT/ivys/ivy.xml"/>
+				<caller organisation="com.github.cornerman" name="covenant-http_sjs0.6_2.12" conf="compile" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="com.github.cornerman" name="covenant-ws_sjs0.6_2.12" conf="compile" rev="0.1.0-SNAPSHOT" rev-constraint-default="0.1.0-SNAPSHOT" rev-constraint-dynamic="0.1.0-SNAPSHOT" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="covenant-core_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="208535" time="0" location="/home/elyphas/.ivy2/local/com.github.cornerman/covenant-core_sjs0.6_2.12/0.1.0-SNAPSHOT/jars/covenant-core_sjs0.6_2.12.jar">
+						<origin-location is-local="true" location="/home/elyphas/.ivy2/local/com.github.cornerman/covenant-core_sjs0.6_2.12/0.1.0-SNAPSHOT/jars/covenant-core_sjs0.6_2.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.outr" name="scribe_sjs0.6_2.12">
+			<revision name="2.6.0" status="release" pubdate="20180827153906" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/outr/scribe" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="22">
+				<license name="MIT" url="https://github.com/outr/scribe/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3384" time="0" location="/home/elyphas/.ivy2/cache/com.outr/scribe_sjs0.6_2.12/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/outr/scribe_sjs0.6_2.12/2.6.0/scribe_sjs0.6_2.12-2.6.0.pom"/>
+				<caller organisation="com.github.cornerman.mycelium" name="mycelium_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="44906c6"/>
+				<caller organisation="com.github.cornerman" name="covenant-core_sjs0.6_2.12" conf="compile" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scribe_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="435054" time="0" location="/home/elyphas/.ivy2/cache/com.outr/scribe_sjs0.6_2.12/jars/scribe_sjs0.6_2.12-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/outr/scribe_sjs0.6_2.12/2.6.0/scribe_sjs0.6_2.12-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.outr" name="perfolation_sjs0.6_2.12">
+			<revision name="1.0.4" status="release" pubdate="20180713123221" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/outr/perfolation" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="MIT" url="https://github.com/outr/perfolation/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3567" time="0" location="/home/elyphas/.ivy2/cache/com.outr/perfolation_sjs0.6_2.12/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/outr/perfolation_sjs0.6_2.12/1.0.4/perfolation_sjs0.6_2.12-1.0.4.pom"/>
+				<caller organisation="com.outr" name="scribe_sjs0.6_2.12" conf="default, compile, runtime, master" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="2.6.0"/>
+				<artifacts>
+					<artifact name="perfolation_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="60161" time="0" location="/home/elyphas/.ivy2/cache/com.outr/perfolation_sjs0.6_2.12/jars/perfolation_sjs0.6_2.12-1.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/outr/perfolation_sjs0.6_2.12/1.0.4/perfolation_sjs0.6_2.12-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.github.cquiroz" name="scala-java-locales_sjs0.6_2.12">
+			<revision name="0.5.4-cldr31" status="release" pubdate="20170606094225" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/cquiroz/scala-java-locales" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3148" time="0" location="/home/elyphas/.ivy2/cache/io.github.cquiroz/scala-java-locales_sjs0.6_2.12/ivy-0.5.4-cldr31.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/github/cquiroz/scala-java-locales_sjs0.6_2.12/0.5.4-cldr31/scala-java-locales_sjs0.6_2.12-0.5.4-cldr31.pom"/>
+				<caller organisation="com.outr" name="perfolation_sjs0.6_2.12" conf="compile, runtime" rev="0.5.4-cldr31" rev-constraint-default="0.5.4-cldr31" rev-constraint-dynamic="0.5.4-cldr31" callerrev="1.0.4"/>
+				<artifacts>
+					<artifact name="scala-java-locales_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="5760959" time="0" location="/home/elyphas/.ivy2/cache/io.github.cquiroz/scala-java-locales_sjs0.6_2.12/jars/scala-java-locales_sjs0.6_2.12-0.5.4-cldr31.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/github/cquiroz/scala-java-locales_sjs0.6_2.12/0.5.4-cldr31/scala-java-locales_sjs0.6_2.12-0.5.4-cldr31.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.outr" name="perfolation-macros_sjs0.6_2.12">
+			<revision name="1.0.4" status="release" pubdate="20180713123151" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/outr/perfolation" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="MIT" url="https://github.com/outr/perfolation/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3128" time="0" location="/home/elyphas/.ivy2/cache/com.outr/perfolation-macros_sjs0.6_2.12/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/outr/perfolation-macros_sjs0.6_2.12/1.0.4/perfolation-macros_sjs0.6_2.12-1.0.4.pom"/>
+				<caller organisation="com.outr" name="perfolation_sjs0.6_2.12" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="1.0.4"/>
+				<artifacts>
+					<artifact name="perfolation-macros_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="16551" time="0" location="/home/elyphas/.ivy2/cache/com.outr/perfolation-macros_sjs0.6_2.12/jars/perfolation-macros_sjs0.6_2.12-1.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/outr/perfolation-macros_sjs0.6_2.12/1.0.4/perfolation-macros_sjs0.6_2.12-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.outr" name="scribe-macros_sjs0.6_2.12">
+			<revision name="2.6.0" status="release" pubdate="20180827153815" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/outr/scribe" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="MIT" url="https://github.com/outr/scribe/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3103" time="0" location="/home/elyphas/.ivy2/cache/com.outr/scribe-macros_sjs0.6_2.12/ivy-2.6.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/outr/scribe-macros_sjs0.6_2.12/2.6.0/scribe-macros_sjs0.6_2.12-2.6.0.pom"/>
+				<caller organisation="com.outr" name="scribe_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="2.6.0"/>
+				<artifacts>
+					<artifact name="scribe-macros_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="9192" time="0" location="/home/elyphas/.ivy2/cache/com.outr/scribe-macros_sjs0.6_2.12/jars/scribe-macros_sjs0.6_2.12-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/outr/scribe-macros_sjs0.6_2.12/2.6.0/scribe-macros_sjs0.6_2.12-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.cornerman.sloth" name="sloth_sjs0.6_2.12">
+			<revision name="206b005" status="release" pubdate="20180530160235" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<metadata-artifact status="no" details="" size="4087" time="0" location="/home/elyphas/.ivy2/cache/com.github.cornerman.sloth/sloth_sjs0.6_2.12/ivy-206b005.xml" searched="false" origin-is-local="false" origin-location="https://jitpack.io/com/github/cornerman/sloth/sloth_sjs0.6_2.12/206b005/sloth_sjs0.6_2.12-206b005.pom"/>
+				<caller organisation="com.github.cornerman" name="covenant-core_sjs0.6_2.12" conf="compile" rev="206b005" rev-constraint-default="206b005" rev-constraint-dynamic="206b005" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="sloth_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="187431" time="0" location="/home/elyphas/.ivy2/cache/com.github.cornerman.sloth/sloth_sjs0.6_2.12/jars/sloth_sjs0.6_2.12-206b005.jar">
+						<origin-location is-local="false" location="https://jitpack.io/com/github/cornerman/sloth/sloth_sjs0.6_2.12/206b005/sloth_sjs0.6_2.12-206b005.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="kittens_sjs0.6_2.12">
+			<revision name="1.0.0-RC3" status="release" pubdate="20180308114523" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/kittens" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="17">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4038" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/kittens_sjs0.6_2.12/ivy-1.0.0-RC3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/kittens_sjs0.6_2.12/1.0.0-RC3/kittens_sjs0.6_2.12-1.0.0-RC3.pom"/>
+				<caller organisation="com.github.cornerman" name="covenant-core_sjs0.6_2.12" conf="compile" rev="1.0.0-RC3" rev-constraint-default="1.0.0-RC3" rev-constraint-dynamic="1.0.0-RC3" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="kittens_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="550479" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/kittens_sjs0.6_2.12/jars/kittens_sjs0.6_2.12-1.0.0-RC3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/kittens_sjs0.6_2.12/1.0.0-RC3/kittens_sjs0.6_2.12-1.0.0-RC3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.12">
+			<revision name="2.3.3" status="release" pubdate="20171231085153" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3230" time="0" location="/home/elyphas/.ivy2/cache/com.chuusai/shapeless_2.12/ivy-2.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.pom"/>
+				<caller organisation="org.typelevel" name="kittens_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.3.3" rev-constraint-default="2.3.3" rev-constraint-dynamic="2.3.3" callerrev="1.0.0-RC3"/>
+				<artifacts>
+					<artifact name="shapeless_2.12" type="bundle" ext="jar" status="no" details="" size="3243337" time="0" location="/home/elyphas/.ivy2/cache/com.chuusai/shapeless_2.12/bundles/shapeless_2.12-2.3.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.12/2.3.3/shapeless_2.12-2.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="alleycats-core_2.12">
+			<revision name="1.0.1" status="release" pubdate="20171231064947" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3226" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/alleycats-core_2.12/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/alleycats-core_2.12/1.0.1/alleycats-core_2.12-1.0.1.pom"/>
+				<caller organisation="org.typelevel" name="kittens_sjs0.6_2.12" conf="default, compile, runtime, master" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0.0-RC3"/>
+				<artifacts>
+					<artifact name="alleycats-core_2.12" type="jar" ext="jar" status="no" details="" size="168190" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/alleycats-core_2.12/jars/alleycats-core_2.12-1.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/alleycats-core_2.12/1.0.1/alleycats-core_2.12-1.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="export-hook_2.12">
+			<revision name="1.2.0" status="release" pubdate="20170112133446" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/export-hook" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3612" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/export-hook_2.12/ivy-1.2.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/export-hook_2.12/1.2.0/export-hook_2.12-1.2.0.pom"/>
+				<caller organisation="org.typelevel" name="alleycats-core_2.12" conf="compile, runtime" rev="1.2.0" rev-constraint-default="1.2.0" rev-constraint-dynamic="1.2.0" callerrev="1.0.1"/>
+				<artifacts>
+					<artifact name="export-hook_2.12" type="jar" ext="jar" status="no" details="" size="151803" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/export-hook_2.12/jars/export-hook_2.12-1.2.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/export-hook_2.12/1.2.0/export-hook_2.12-1.2.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.12">
+			<revision name="1.1.1" status="release" pubdate="20161102024258" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/macro-compat_2.12/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.pom"/>
+				<caller organisation="com.chuusai" name="shapeless_2.12" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.3.3"/>
+				<caller organisation="com.chuusai" name="shapeless_sjs0.6_2.12" conf="default, compile, runtime, master" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.3.3"/>
+				<caller organisation="org.typelevel" name="export-hook_2.12" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="1.2.0"/>
+				<artifacts>
+					<artifact name="macro-compat_2.12" type="jar" ext="jar" status="no" details="" size="3180" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/macro-compat_2.12/jars/macro-compat_2.12-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.12/1.1.1/macro-compat_2.12-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.cornerman.chameleon" name="chameleon_sjs0.6_2.12">
+			<revision name="7dacc9f" status="release" pubdate="20180328133300" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/cornerman/chameleon" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="MIT License" url="https://api.github.com/licenses/mit"/>
+				<metadata-artifact status="no" details="" size="4022" time="0" location="/home/elyphas/.ivy2/cache/com.github.cornerman.chameleon/chameleon_sjs0.6_2.12/ivy-7dacc9f.xml" searched="false" origin-is-local="false" origin-location="https://jitpack.io/com/github/cornerman/chameleon/chameleon_sjs0.6_2.12/7dacc9f/chameleon_sjs0.6_2.12-7dacc9f.pom"/>
+				<caller organisation="com.github.cornerman.mycelium" name="mycelium_sjs0.6_2.12" conf="default, compile, runtime, master" rev="cb9b1b4" rev-constraint-default="cb9b1b4" rev-constraint-dynamic="cb9b1b4" callerrev="44906c6"/>
+				<caller organisation="com.github.cornerman.sloth" name="sloth_sjs0.6_2.12" conf="default, compile, runtime, master" rev="7dacc9f" rev-constraint-default="7dacc9f" rev-constraint-dynamic="7dacc9f" callerrev="206b005"/>
+				<artifacts>
+					<artifact name="chameleon_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="68367" time="0" location="/home/elyphas/.ivy2/cache/com.github.cornerman.chameleon/chameleon_sjs0.6_2.12/jars/chameleon_sjs0.6_2.12-7dacc9f.jar">
+						<origin-location is-local="false" location="https://jitpack.io/com/github/cornerman/chameleon/chameleon_sjs0.6_2.12/7dacc9f/chameleon_sjs0.6_2.12-7dacc9f.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="cb9b1b4" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="7dacc9f"/>
+				<caller organisation="com.github.cornerman.mycelium" name="mycelium_sjs0.6_2.12" conf="default, compile, runtime, master" rev="cb9b1b4" rev-constraint-default="cb9b1b4" rev-constraint-dynamic="cb9b1b4" callerrev="44906c6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe.akka" name="akka-actor_2.12">
+			<revision name="2.5.19" status="release" pubdate="20181207051755" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io/" extra-info.apiURL="http://doc.akka.io/api/akka/2.5.19" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="10">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3102" time="0" location="/home/elyphas/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/ivy-2.5.19.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.19/akka-actor_2.12-2.5.19.pom"/>
+				<caller organisation="xiimbal maak" name="shared_sjs0.6_2.12" conf="compile" rev="2.5.19" rev-constraint-default="2.5.19" rev-constraint-dynamic="2.5.19" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="akka-actor_2.12" type="jar" ext="jar" status="no" details="" size="3472714" time="0" location="/home/elyphas/.ivy2/cache/com.typesafe.akka/akka-actor_2.12/jars/akka-actor_2.12-2.5.19.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.12/2.5.19/akka-actor_2.12-2.5.19.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-java8-compat_2.12">
+			<revision name="0.8.0" status="release" pubdate="20161029171227" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3036" time="0" location="/home/elyphas/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/ivy-0.8.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.12" conf="default, compile, runtime, master" rev="0.8.0" rev-constraint-default="0.8.0" rev-constraint-dynamic="0.8.0" callerrev="2.5.19"/>
+				<artifacts>
+					<artifact name="scala-java8-compat_2.12" type="bundle" ext="jar" status="no" details="" size="1165728" time="0" location="/home/elyphas/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.12/bundles/scala-java8-compat_2.12-0.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.12/0.8.0/scala-java8-compat_2.12-0.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.typesafe" name="config">
+			<revision name="1.3.3" status="release" pubdate="20180221080821" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lightbend/config" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2874" time="0" location="/home/elyphas/.ivy2/cache/com.typesafe/config/ivy-1.3.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.pom"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.12" conf="default, compile, runtime, master" rev="1.3.3" rev-constraint-default="1.3.3" rev-constraint-dynamic="1.3.3" callerrev="2.5.19"/>
+				<artifacts>
+					<artifact name="config" type="bundle" ext="jar" status="no" details="" size="286090" time="0" location="/home/elyphas/.ivy2/cache/com.typesafe/config/bundles/config-1.3.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/typesafe/config/1.3.3/config-1.3.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.marklister" name="base64_2.12">
+			<revision name="0.2.5" status="release" pubdate="20190328180801" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/marklister/base64" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="9">
+				<license name="BSD Simplified" url="http://opensource.org/licenses/BSD-SIMPLIFIED"/>
+				<metadata-artifact status="no" details="" size="2807" time="0" location="/home/elyphas/.ivy2/cache/com.github.marklister/base64_2.12/ivy-0.2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/marklister/base64_2.12/0.2.5/base64_2.12-0.2.5.pom"/>
+				<caller organisation="xiimbal maak" name="shared_sjs0.6_2.12" conf="compile" rev="0.2.5" rev-constraint-default="0.2.5" rev-constraint-dynamic="0.2.5" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="base64_2.12" type="jar" ext="jar" status="no" details="" size="305" time="0" location="/home/elyphas/.ivy2/cache/com.github.marklister/base64_2.12/jars/base64_2.12-0.2.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/marklister/base64_2.12/0.2.5/base64_2.12-0.2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-core_2.12">
+			<revision name="1.4.0" status="release" pubdate="20180912131647" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master, runtime(*), master(compile), compile(*)" position="4">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="3339" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-core_2.12/ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.4.0/cats-core_2.12-1.4.0.pom"/>
+				<caller organisation="xiimbal maak" name="shared_sjs0.6_2.12" conf="compile" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.typelevel" name="kittens_sjs0.6_2.12" conf="default, compile, runtime, master" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0.0-RC3"/>
+				<caller organisation="org.typelevel" name="alleycats-core_2.12" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0.1"/>
+				<artifacts>
+					<artifact name="cats-core_2.12" type="jar" ext="jar" status="no" details="" size="4413894" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-1.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-core_2.12/1.4.0/cats-core_2.12-1.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="1.4.0"/>
+				<caller organisation="org.typelevel" name="kittens_sjs0.6_2.12" conf="default, compile, runtime, master" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0.0-RC3"/>
+				<caller organisation="org.typelevel" name="alleycats-core_2.12" conf="compile, runtime" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="1.0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-kernel_2.12">
+			<revision name="1.4.0" status="release" pubdate="20180912130845" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2777" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-kernel_2.12/ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.4.0/cats-kernel_2.12-1.4.0.pom"/>
+				<caller organisation="org.typelevel" name="cats-core_2.12" conf="default, compile, runtime, master" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="1.4.0"/>
+				<artifacts>
+					<artifact name="cats-kernel_2.12" type="jar" ext="jar" status="no" details="" size="3206314" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-kernel_2.12/jars/cats-kernel_2.12-1.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/1.4.0/cats-kernel_2.12-1.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="cats-macros_2.12">
+			<revision name="1.4.0" status="release" pubdate="20180912131028" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2923" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-macros_2.12/ivy-1.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.4.0/cats-macros_2.12-1.4.0.pom"/>
+				<caller organisation="org.typelevel" name="cats-core_2.12" conf="default, compile, runtime, master" rev="1.4.0" rev-constraint-default="1.4.0" rev-constraint-dynamic="1.4.0" callerrev="1.4.0"/>
+				<artifacts>
+					<artifact name="cats-macros_2.12" type="jar" ext="jar" status="no" details="" size="6273" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/cats-macros_2.12/jars/cats-macros_2.12-1.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/cats-macros_2.12/1.4.0/cats-macros_2.12-1.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="machinist_2.12">
+			<revision name="0.6.5" status="release" pubdate="20180626083520" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/typelevel/machinist" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2785" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/machinist_2.12/ivy-0.6.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.5/machinist_2.12-0.6.5.pom"/>
+				<caller organisation="org.typelevel" name="alleycats-core_2.12" conf="compile, runtime" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="1.0.1"/>
+				<caller organisation="org.typelevel" name="cats-core_2.12" conf="default, compile, runtime, master" rev="0.6.5" rev-constraint-default="0.6.5" rev-constraint-dynamic="0.6.5" callerrev="1.4.0"/>
+				<caller organisation="org.typelevel" name="cats-macros_2.12" conf="compile, runtime" rev="0.6.5" rev-constraint-default="0.6.5" rev-constraint-dynamic="0.6.5" callerrev="1.4.0"/>
+				<artifacts>
+					<artifact name="machinist_2.12" type="jar" ext="jar" status="no" details="" size="33783" time="0" location="/home/elyphas/.ivy2/cache/org.typelevel/machinist_2.12/jars/machinist_2.12-0.6.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/machinist_2.12/0.6.5/machinist_2.12-0.6.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.6.2" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.6.5"/>
+				<caller organisation="org.typelevel" name="alleycats-core_2.12" conf="compile, runtime" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="1.0.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.suzaku" name="boopickle_sjs0.6_2.12">
+			<revision name="1.3.1" status="release" pubdate="20190511103358" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/suzaku-io/boopickle" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="Apache 2.0 license" url="http://www.opensource.org/licenses/Apache-2.0"/>
+				<metadata-artifact status="no" details="" size="3238" time="0" location="/home/elyphas/.ivy2/cache/io.suzaku/boopickle_sjs0.6_2.12/ivy-1.3.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/suzaku/boopickle_sjs0.6_2.12/1.3.1/boopickle_sjs0.6_2.12-1.3.1.pom"/>
+				<caller organisation="xiimbal maak" name="shared_sjs0.6_2.12" conf="compile" rev="1.3.1" rev-constraint-default="1.3.1" rev-constraint-dynamic="1.3.1" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="boopickle_sjs0.6_2.12" type="jar" ext="jar" status="no" details="" size="469018" time="0" location="/home/elyphas/.ivy2/cache/io.suzaku/boopickle_sjs0.6_2.12/jars/boopickle_sjs0.6_2.12-1.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/suzaku/boopickle_sjs0.6_2.12/1.3.1/boopickle_sjs0.6_2.12-1.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-library_2.12">
+			<revision name="0.6.27" status="release" pubdate="20190405021016" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://www.scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.27/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="3">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2991" time="0" location="/home/elyphas/.ivy2/cache/org.scala-js/scalajs-library_2.12/ivy-0.6.27.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.27/scalajs-library_2.12-0.6.27.pom"/>
+				<caller organisation="com.outr" name="scribe_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="2.6.0"/>
+				<caller organisation="org.typelevel" name="cats-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="1.6.0"/>
+				<caller organisation="xiimbal maak" name="client_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="com.outr" name="perfolation-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="1.0.4"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="0.6.20" rev-constraint-default="0.6.20" rev-constraint-dynamic="0.6.20" callerrev="1.1.0"/>
+				<caller organisation="io.github.outwatch.outwatch" name="outwatch_sjs0.6_2.12" conf="compile, runtime" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="676f94a"/>
+				<caller organisation="com.outr" name="scribe-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="2.6.0"/>
+				<caller organisation="org.typelevel" name="cats-effect_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="0.10"/>
+				<caller organisation="com.github.cornerman.sloth" name="sloth_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="206b005"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="1.6.0"/>
+				<caller organisation="xiimbal maak" name="shared_sjs0.6_2.12" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="io.monix" name="monix-eval_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="3.0.0-RC2"/>
+				<caller organisation="com.raquo" name="domtypes_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="0.9.4"/>
+				<caller organisation="org.typelevel" name="cats-kernel_sjs0.6_2.12" conf="compile, runtime" rev="0.6.20" rev-constraint-default="0.6.20" rev-constraint-dynamic="0.6.20" callerrev="1.1.0"/>
+				<caller organisation="io.monix" name="monix-tail_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="org.scala-js" name="scalajs-java-time_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="0.2.4"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.27" rev-constraint-default="0.6.27" rev-constraint-dynamic="0.6.27" callerrev="0.9.7"/>
+				<caller organisation="com.chuusai" name="shapeless_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.21" rev-constraint-default="0.6.21" rev-constraint-dynamic="0.6.21" callerrev="2.3.3"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="3.0.0-RC2"/>
+				<caller organisation="io.suzaku" name="boopickle_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.27" rev-constraint-default="0.6.27" rev-constraint-dynamic="0.6.27" callerrev="1.3.1"/>
+				<caller organisation="io.github.outwatch" name="outwatch_sjs0.6_2.12" conf="compile" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="0.11.1-SNAPSHOT"/>
+				<caller organisation="io.monix" name="monix-catnap_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="3.0.0-RC2"/>
+				<caller organisation="com.clovellytech" name="outwatch-router_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="0.0.7"/>
+				<caller organisation="org.typelevel" name="kittens_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.21" rev-constraint-default="0.6.21" rev-constraint-dynamic="0.6.21" callerrev="1.0.0-RC3"/>
+				<caller organisation="com.outr" name="perfolation_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="1.0.4"/>
+				<caller organisation="io.github.cquiroz" name="scala-java-locales_sjs0.6_2.12" conf="compile, runtime" rev="0.6.17" rev-constraint-default="0.6.17" rev-constraint-dynamic="0.6.17" callerrev="0.5.4-cldr31"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-reactive_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="3.0.0-RC2"/>
+				<caller organisation="io.monix" name="monix-execution_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.github.outwatch.outwatch" name="bench_sjs0.6_2.12" conf="compile, runtime" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="676f94a"/>
+				<caller organisation="org.typelevel" name="machinist_sjs0.6_2.12" conf="compile, runtime" rev="0.6.16" rev-constraint-default="0.6.16" rev-constraint-dynamic="0.6.16" callerrev="0.6.2"/>
+				<caller organisation="org.typelevel" name="cats-effect_sjs0.6_2.12" conf="compile, runtime" rev="0.6.27" rev-constraint-default="0.6.27" rev-constraint-dynamic="0.6.27" callerrev="1.3.0"/>
+				<caller organisation="com.github.cornerman.mycelium" name="mycelium_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="44906c6"/>
+				<caller organisation="io.monix" name="monix-execution_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="3.0.0-RC2"/>
+				<caller organisation="com.github.cornerman" name="covenant-http_sjs0.6_2.12" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.typelevel" name="machinist_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="0.6.6"/>
+				<caller organisation="org.scala-js" name="scalajs-test-interface_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.6.23"/>
+				<caller organisation="com.github.cornerman.chameleon" name="chameleon_sjs0.6_2.12" conf="compile, runtime" rev="0.6.21" rev-constraint-default="0.6.21" rev-constraint-dynamic="0.6.21" callerrev="7dacc9f"/>
+				<caller organisation="io.monix" name="monix-reactive_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-eval_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="com.github.cornerman" name="covenant-core_sjs0.6_2.12" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.typelevel" name="cats-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.20" rev-constraint-default="0.6.20" rev-constraint-dynamic="0.6.20" callerrev="1.1.0"/>
+				<caller organisation="org.typelevel" name="cats-kernel_sjs0.6_2.12" conf="compile, runtime" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="1.6.0"/>
+				<caller organisation="io.monix" name="monix-tail_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="3.0.0-RC2"/>
+				<caller organisation="com.github.cornerman" name="covenant-ws_sjs0.6_2.12" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.9.6"/>
+				<artifacts>
+					<artifact name="scalajs-library_2.12" type="jar" ext="jar" status="no" details="" size="6519499" time="0" location="/home/elyphas/.ivy2/cache/org.scala-js/scalajs-library_2.12/jars/scalajs-library_2.12-0.6.27.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.27/scalajs-library_2.12-0.6.27.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.6.23" status="release" pubdate="20180515181208" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-library/0.6.23/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="-1">
+				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="2996" time="0" location="/home/elyphas/.ivy2/cache/org.scala-js/scalajs-library_2.12/ivy-0.6.23.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-library_2.12/0.6.23/scalajs-library_2.12-0.6.23.pom"/>
+				<evicted-by rev="0.6.27"/>
+				<caller organisation="org.typelevel" name="kittens_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.21" rev-constraint-default="0.6.21" rev-constraint-dynamic="0.6.21" callerrev="1.0.0-RC3"/>
+				<caller organisation="com.outr" name="perfolation_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="1.0.4"/>
+				<caller organisation="io.github.cquiroz" name="scala-java-locales_sjs0.6_2.12" conf="compile, runtime" rev="0.6.17" rev-constraint-default="0.6.17" rev-constraint-dynamic="0.6.17" callerrev="0.5.4-cldr31"/>
+				<caller organisation="com.outr" name="scribe_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="2.6.0"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="xiimbal maak" name="client_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="com.outr" name="perfolation-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="1.0.4"/>
+				<caller organisation="io.monix" name="monix-execution_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="0.6.20" rev-constraint-default="0.6.20" rev-constraint-dynamic="0.6.20" callerrev="1.1.0"/>
+				<caller organisation="com.outr" name="scribe-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="2.6.0"/>
+				<caller organisation="com.github.cornerman.sloth" name="sloth_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="206b005"/>
+				<caller organisation="xiimbal maak" name="shared_sjs0.6_2.12" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="com.github.cornerman.mycelium" name="mycelium_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="44906c6"/>
+				<caller organisation="com.github.cornerman" name="covenant-http_sjs0.6_2.12" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.scala-js" name="scalajs-test-interface_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.6.23"/>
+				<caller organisation="com.github.cornerman.chameleon" name="chameleon_sjs0.6_2.12" conf="compile, runtime" rev="0.6.21" rev-constraint-default="0.6.21" rev-constraint-dynamic="0.6.21" callerrev="7dacc9f"/>
+				<caller organisation="com.github.cornerman" name="covenant-core_sjs0.6_2.12" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.typelevel" name="cats-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.20" rev-constraint-default="0.6.20" rev-constraint-dynamic="0.6.20" callerrev="1.1.0"/>
+				<caller organisation="com.github.cornerman" name="covenant-ws_sjs0.6_2.12" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.9.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="0.6.25" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master, default, default(compile)" position="-1">
+				<evicted-by rev="0.6.27"/>
+				<caller organisation="com.outr" name="scribe_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="2.6.0"/>
+				<caller organisation="xiimbal maak" name="client_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="com.outr" name="perfolation-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="1.0.4"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="0.6.20" rev-constraint-default="0.6.20" rev-constraint-dynamic="0.6.20" callerrev="1.1.0"/>
+				<caller organisation="com.outr" name="scribe-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="2.6.0"/>
+				<caller organisation="org.typelevel" name="cats-effect_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="0.10"/>
+				<caller organisation="com.github.cornerman.sloth" name="sloth_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="206b005"/>
+				<caller organisation="xiimbal maak" name="shared_sjs0.6_2.12" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="io.monix" name="monix-eval_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="3.0.0-RC2"/>
+				<caller organisation="org.typelevel" name="cats-kernel_sjs0.6_2.12" conf="compile, runtime" rev="0.6.20" rev-constraint-default="0.6.20" rev-constraint-dynamic="0.6.20" callerrev="1.1.0"/>
+				<caller organisation="io.monix" name="monix-tail_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="3.0.0-RC2"/>
+				<caller organisation="io.suzaku" name="boopickle_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.27" rev-constraint-default="0.6.27" rev-constraint-dynamic="0.6.27" callerrev="1.3.1"/>
+				<caller organisation="io.github.outwatch" name="outwatch_sjs0.6_2.12" conf="compile" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="0.11.1-SNAPSHOT"/>
+				<caller organisation="io.monix" name="monix-catnap_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="3.0.0-RC2"/>
+				<caller organisation="org.typelevel" name="kittens_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.21" rev-constraint-default="0.6.21" rev-constraint-dynamic="0.6.21" callerrev="1.0.0-RC3"/>
+				<caller organisation="com.outr" name="perfolation_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="1.0.4"/>
+				<caller organisation="io.github.cquiroz" name="scala-java-locales_sjs0.6_2.12" conf="compile, runtime" rev="0.6.17" rev-constraint-default="0.6.17" rev-constraint-dynamic="0.6.17" callerrev="0.5.4-cldr31"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-reactive_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="3.0.0-RC2"/>
+				<caller organisation="io.monix" name="monix-execution_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="org.typelevel" name="machinist_sjs0.6_2.12" conf="compile, runtime" rev="0.6.16" rev-constraint-default="0.6.16" rev-constraint-dynamic="0.6.16" callerrev="0.6.2"/>
+				<caller organisation="org.typelevel" name="cats-effect_sjs0.6_2.12" conf="compile, runtime" rev="0.6.27" rev-constraint-default="0.6.27" rev-constraint-dynamic="0.6.27" callerrev="1.3.0"/>
+				<caller organisation="io.monix" name="monix-execution_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="3.0.0-RC2"/>
+				<caller organisation="com.github.cornerman.mycelium" name="mycelium_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="44906c6"/>
+				<caller organisation="com.github.cornerman" name="covenant-http_sjs0.6_2.12" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.typelevel" name="machinist_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="0.6.6"/>
+				<caller organisation="com.github.cornerman.chameleon" name="chameleon_sjs0.6_2.12" conf="compile, runtime" rev="0.6.21" rev-constraint-default="0.6.21" rev-constraint-dynamic="0.6.21" callerrev="7dacc9f"/>
+				<caller organisation="io.monix" name="monix-reactive_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-eval_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="com.github.cornerman" name="covenant-core_sjs0.6_2.12" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.typelevel" name="cats-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.20" rev-constraint-default="0.6.20" rev-constraint-dynamic="0.6.20" callerrev="1.1.0"/>
+				<caller organisation="io.monix" name="monix-tail_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="3.0.0-RC2"/>
+				<caller organisation="com.github.cornerman" name="covenant-ws_sjs0.6_2.12" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.9.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="0.6.26" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="-1">
+				<evicted-by rev="0.6.27"/>
+				<caller organisation="org.typelevel" name="cats-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="1.6.0"/>
+				<caller organisation="com.outr" name="scribe_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="2.6.0"/>
+				<caller organisation="xiimbal maak" name="client_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="com.outr" name="perfolation-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="1.0.4"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="0.6.20" rev-constraint-default="0.6.20" rev-constraint-dynamic="0.6.20" callerrev="1.1.0"/>
+				<caller organisation="io.github.outwatch.outwatch" name="outwatch_sjs0.6_2.12" conf="compile, runtime" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="676f94a"/>
+				<caller organisation="com.outr" name="scribe-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="2.6.0"/>
+				<caller organisation="org.typelevel" name="cats-effect_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="0.10"/>
+				<caller organisation="com.github.cornerman.sloth" name="sloth_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="206b005"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="1.6.0"/>
+				<caller organisation="xiimbal maak" name="shared_sjs0.6_2.12" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.typelevel" name="cats-kernel_sjs0.6_2.12" conf="compile, runtime" rev="0.6.20" rev-constraint-default="0.6.20" rev-constraint-dynamic="0.6.20" callerrev="1.1.0"/>
+				<caller organisation="io.monix" name="monix-tail_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="3.0.0-RC2"/>
+				<caller organisation="io.suzaku" name="boopickle_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.27" rev-constraint-default="0.6.27" rev-constraint-dynamic="0.6.27" callerrev="1.3.1"/>
+				<caller organisation="io.github.outwatch" name="outwatch_sjs0.6_2.12" conf="compile" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="0.11.1-SNAPSHOT"/>
+				<caller organisation="com.clovellytech" name="outwatch-router_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="0.0.7"/>
+				<caller organisation="org.typelevel" name="kittens_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.21" rev-constraint-default="0.6.21" rev-constraint-dynamic="0.6.21" callerrev="1.0.0-RC3"/>
+				<caller organisation="com.outr" name="perfolation_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="1.0.4"/>
+				<caller organisation="io.github.cquiroz" name="scala-java-locales_sjs0.6_2.12" conf="compile, runtime" rev="0.6.17" rev-constraint-default="0.6.17" rev-constraint-dynamic="0.6.17" callerrev="0.5.4-cldr31"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-execution_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.github.outwatch.outwatch" name="bench_sjs0.6_2.12" conf="compile, runtime" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="676f94a"/>
+				<caller organisation="org.typelevel" name="machinist_sjs0.6_2.12" conf="compile, runtime" rev="0.6.16" rev-constraint-default="0.6.16" rev-constraint-dynamic="0.6.16" callerrev="0.6.2"/>
+				<caller organisation="org.typelevel" name="cats-effect_sjs0.6_2.12" conf="compile, runtime" rev="0.6.27" rev-constraint-default="0.6.27" rev-constraint-dynamic="0.6.27" callerrev="1.3.0"/>
+				<caller organisation="io.monix" name="monix-execution_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="3.0.0-RC2"/>
+				<caller organisation="com.github.cornerman.mycelium" name="mycelium_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="44906c6"/>
+				<caller organisation="com.github.cornerman" name="covenant-http_sjs0.6_2.12" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.typelevel" name="machinist_sjs0.6_2.12" conf="compile, runtime" rev="0.6.25" rev-constraint-default="0.6.25" rev-constraint-dynamic="0.6.25" callerrev="0.6.6"/>
+				<caller organisation="com.github.cornerman.chameleon" name="chameleon_sjs0.6_2.12" conf="compile, runtime" rev="0.6.21" rev-constraint-default="0.6.21" rev-constraint-dynamic="0.6.21" callerrev="7dacc9f"/>
+				<caller organisation="io.monix" name="monix-reactive_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-eval_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="com.github.cornerman" name="covenant-core_sjs0.6_2.12" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.typelevel" name="cats-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.20" rev-constraint-default="0.6.20" rev-constraint-dynamic="0.6.20" callerrev="1.1.0"/>
+				<caller organisation="org.typelevel" name="cats-kernel_sjs0.6_2.12" conf="compile, runtime" rev="0.6.26" rev-constraint-default="0.6.26" rev-constraint-dynamic="0.6.26" callerrev="1.6.0"/>
+				<caller organisation="com.github.cornerman" name="covenant-ws_sjs0.6_2.12" conf="compile" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.9.6"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="0.6.17" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="-1">
+				<evicted-by rev="0.6.27"/>
+				<caller organisation="io.github.cquiroz" name="scala-java-locales_sjs0.6_2.12" conf="compile, runtime" rev="0.6.17" rev-constraint-default="0.6.17" rev-constraint-dynamic="0.6.17" callerrev="0.5.4-cldr31"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="0.6.22" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.6.27"/>
+				<caller organisation="com.raquo" name="domtypes_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="0.9.4"/>
+				<caller organisation="com.outr" name="perfolation_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="1.0.4"/>
+				<caller organisation="io.github.cquiroz" name="scala-java-locales_sjs0.6_2.12" conf="compile, runtime" rev="0.6.17" rev-constraint-default="0.6.17" rev-constraint-dynamic="0.6.17" callerrev="0.5.4-cldr31"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-tail_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="org.scala-js" name="scalajs-java-time_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="0.2.4"/>
+				<caller organisation="com.outr" name="perfolation-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="1.0.4"/>
+				<caller organisation="io.monix" name="monix-execution_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-reactive_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<caller organisation="org.typelevel" name="cats-effect_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="0.10"/>
+				<caller organisation="io.monix" name="monix-eval_sjs0.6_2.12" conf="compile, runtime" rev="0.6.22" rev-constraint-default="0.6.22" rev-constraint-dynamic="0.6.22" callerrev="3.0.0-RC1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="0.6.21" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.6.27"/>
+				<caller organisation="org.typelevel" name="kittens_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.21" rev-constraint-default="0.6.21" rev-constraint-dynamic="0.6.21" callerrev="1.0.0-RC3"/>
+				<caller organisation="com.github.cornerman.chameleon" name="chameleon_sjs0.6_2.12" conf="compile, runtime" rev="0.6.21" rev-constraint-default="0.6.21" rev-constraint-dynamic="0.6.21" callerrev="7dacc9f"/>
+				<caller organisation="com.chuusai" name="shapeless_sjs0.6_2.12" conf="default, compile, runtime, master" rev="0.6.21" rev-constraint-default="0.6.21" rev-constraint-dynamic="0.6.21" callerrev="2.3.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="0.6.16" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*)" position="-1">
+				<evicted-by rev="0.6.27"/>
+				<caller organisation="org.typelevel" name="machinist_sjs0.6_2.12" conf="compile, runtime" rev="0.6.16" rev-constraint-default="0.6.16" rev-constraint-dynamic="0.6.16" callerrev="0.6.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="0.6.20" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="0.6.27"/>
+				<caller organisation="org.typelevel" name="cats-kernel_sjs0.6_2.12" conf="compile, runtime" rev="0.6.20" rev-constraint-default="0.6.20" rev-constraint-dynamic="0.6.20" callerrev="1.1.0"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="0.6.20" rev-constraint-default="0.6.20" rev-constraint-dynamic="0.6.20" callerrev="1.1.0"/>
+				<caller organisation="org.typelevel" name="cats-macros_sjs0.6_2.12" conf="compile, runtime" rev="0.6.20" rev-constraint-default="0.6.20" rev-constraint-dynamic="0.6.20" callerrev="1.1.0"/>
+				<caller organisation="org.typelevel" name="machinist_sjs0.6_2.12" conf="compile, runtime" rev="0.6.16" rev-constraint-default="0.6.16" rev-constraint-dynamic="0.6.16" callerrev="0.6.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-js" name="scalajs-test-interface_2.12">
+			<revision name="0.6.23" status="release" pubdate="20180515181432" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://scala-js.org/" extra-info.apiURL="http://www.scala-js.org/api/scalajs-test-interface/0.6.23/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="50">
+				<license name="BSD New" url="https://github.com/scala-js/scala-js/blob/master/LICENSE"/>
+				<metadata-artifact status="no" details="" size="3032" time="0" location="/home/elyphas/.ivy2/cache/org.scala-js/scalajs-test-interface_2.12/ivy-0.6.23.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.12/0.6.23/scalajs-test-interface_2.12-0.6.23.pom"/>
+				<caller organisation="xiimbal maak" name="client_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="0.6.23" rev-constraint-default="0.6.23" rev-constraint-dynamic="0.6.23" callerrev="0.1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalajs-test-interface_2.12" type="jar" ext="jar" status="no" details="" size="396363" time="0" location="/home/elyphas/.ivy2/cache/org.scala-js/scalajs-test-interface_2.12/jars/scalajs-test-interface_2.12-0.6.23.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-js/scalajs-test-interface_2.12/0.6.23/scalajs-test-interface_2.12-0.6.23.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.5" status="release" pubdate="20180316074401" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2825" time="0" location="/home/elyphas/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.5/scala-reflect-2.12.5.pom"/>
+				<caller organisation="org.typelevel" name="machinist_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.6.6"/>
+				<caller organisation="com.outr" name="perfolation_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.0.4"/>
+				<caller organisation="com.outr" name="scribe_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="2.6.0"/>
+				<caller organisation="com.outr" name="perfolation-macros_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.0.4"/>
+				<caller organisation="com.outr" name="scribe-macros_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="2.6.0"/>
+				<caller organisation="org.typelevel" name="machinist_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.6.5"/>
+				<caller organisation="org.typelevel" name="machinist_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.6.2"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3602589" time="0" location="/home/elyphas/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.5/scala-reflect-2.12.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.5" status="release" pubdate="20180316074746" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.5/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/elyphas/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.5/scala-library-2.12.5.pom"/>
+				<caller organisation="com.outr" name="scribe_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="2.6.0"/>
+				<caller organisation="org.scala-lang.modules" name="scala-java8-compat_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.8.0"/>
+				<caller organisation="com.outr" name="perfolation-macros_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.0.4"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.1.0"/>
+				<caller organisation="io.github.outwatch.outwatch" name="outwatch_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="676f94a"/>
+				<caller organisation="com.outr" name="scribe-macros_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="2.6.0"/>
+				<caller organisation="com.github.cornerman.sloth" name="sloth_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="206b005"/>
+				<caller organisation="org.typelevel" name="export-hook_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.2.0"/>
+				<caller organisation="org.typelevel" name="cats-core_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.6.0"/>
+				<caller organisation="io.github.outwatch.outwatch" name="build_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="676f94a"/>
+				<caller organisation="io.monix" name="monix-tail_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.0.0-RC1"/>
+				<caller organisation="org.scala-js" name="scalajs-java-time_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.2.4"/>
+				<caller organisation="com.chuusai" name="shapeless_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="2.3.3"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.0.0-RC2"/>
+				<caller organisation="org.typelevel" name="cats-macros_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.4.0"/>
+				<caller organisation="org.typelevel" name="machinist_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.6.5"/>
+				<caller organisation="io.github.outwatch" name="outwatch_sjs0.6_2.12" conf="compile" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.11.1-SNAPSHOT"/>
+				<caller organisation="com.clovellytech" name="outwatch-router_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.0.7"/>
+				<caller organisation="io.github.cquiroz" name="scala-java-locales_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.5.4-cldr31"/>
+				<caller organisation="io.monix" name="monix-reactive_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.0.0-RC2"/>
+				<caller organisation="io.monix" name="monix-execution_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.0.0-RC1"/>
+				<caller organisation="com.typesafe.akka" name="akka-actor_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="2.5.19"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="2.12.5"/>
+				<caller organisation="org.typelevel" name="machinist_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.6.2"/>
+				<caller organisation="org.typelevel" name="cats-effect_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.3.0"/>
+				<caller organisation="com.github.cornerman.mycelium" name="mycelium_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="44906c6"/>
+				<caller organisation="com.github.cornerman" name="covenant-http_sjs0.6_2.12" conf="compile" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.typelevel" name="alleycats-core_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.0.1"/>
+				<caller organisation="com.chuusai" name="shapeless_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="2.3.3"/>
+				<caller organisation="org.typelevel" name="cats-macros_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.1.0"/>
+				<caller organisation="com.github.cornerman" name="covenant-ws_sjs0.6_2.12" conf="compile" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.9.6"/>
+				<caller organisation="org.scala-js" name="scalajs-library_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.6.23"/>
+				<caller organisation="org.typelevel" name="cats-macros_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.6.0"/>
+				<caller organisation="xiimbal maak" name="client_sjs0.6_2.12" conf="test, compile, provided, test-internal, runtime, optional" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.typelevel" name="cats-effect_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.10"/>
+				<caller organisation="xiimbal maak" name="shared_sjs0.6_2.12" conf="compile" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="io.monix" name="monix-eval_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.0.0-RC2"/>
+				<caller organisation="com.raquo" name="domtypes_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.9.4"/>
+				<caller organisation="org.typelevel" name="cats-kernel_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.1.0"/>
+				<caller organisation="org.scala-js" name="scalajs-dom_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.9.7"/>
+				<caller organisation="org.typelevel" name="cats-core_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.4.0"/>
+				<caller organisation="io.suzaku" name="boopickle_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.3.1"/>
+				<caller organisation="org.typelevel" name="cats-kernel_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.4.0"/>
+				<caller organisation="io.monix" name="monix-catnap_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.0.0-RC2"/>
+				<caller organisation="org.scala-js" name="scalajs-library_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.6.27"/>
+				<caller organisation="org.typelevel" name="kittens_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.0.0-RC3"/>
+				<caller organisation="com.outr" name="perfolation_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.0.4"/>
+				<caller organisation="com.github.marklister" name="base64_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.2.5"/>
+				<caller organisation="io.monix" name="monix_sjs0.6_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.github.outwatch.outwatch" name="bench_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="676f94a"/>
+				<caller organisation="io.monix" name="monix-execution_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.0.0-RC2"/>
+				<caller organisation="org.typelevel" name="machinist_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.6.6"/>
+				<caller organisation="org.scala-js" name="scalajs-test-interface_2.12" conf="default, compile, runtime, master" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.6.23"/>
+				<caller organisation="com.github.cornerman.chameleon" name="chameleon_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="7dacc9f"/>
+				<caller organisation="io.monix" name="monix-reactive_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.0.0-RC1"/>
+				<caller organisation="io.monix" name="monix-eval_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.0.0-RC1"/>
+				<caller organisation="com.github.cornerman" name="covenant-core_sjs0.6_2.12" conf="compile" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="0.1.0-SNAPSHOT"/>
+				<caller organisation="org.typelevel" name="macro-compat_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.1.1"/>
+				<caller organisation="org.typelevel" name="cats-kernel_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="1.6.0"/>
+				<caller organisation="io.monix" name="monix-tail_sjs0.6_2.12" conf="compile, runtime" rev="2.12.5" rev-constraint-default="2.12.5" rev-constraint-dynamic="2.12.5" callerrev="3.0.0-RC2"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5263467" time="0" location="/home/elyphas/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.5/scala-library-2.12.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
