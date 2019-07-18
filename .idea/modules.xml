@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/.jvm-shared.iml" filepath="$PROJECT_DIR$/.idea/modules/.jvm-shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/client.iml" filepath="$PROJECT_DIR$/.idea/modules/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server.iml" filepath="$PROJECT_DIR$/.idea/modules/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shared.iml" filepath="$PROJECT_DIR$/.idea/modules/shared.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tobuy.iml" filepath="$PROJECT_DIR$/.idea/modules/tobuy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tobuy-build.iml" filepath="$PROJECT_DIR$/.idea/modules/tobuy-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tobuy-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/tobuy-sources.iml" />
+    </modules>
+  </component>
+</project>
