@@ -1,7 +1,5 @@
 package manik1.manik1
 
-import monix.execution.Scheduler.Implicits.global
-
 import com.typesafe.config.ConfigFactory
 import akka.http.scaladsl.Http
 import akka.http.scaladsl.server.RouteResult._

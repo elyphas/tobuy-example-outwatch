@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="sbt: com.github.cornerman.chameleon:chameleon_sjs0.6_2.12:7dacc9f:jar">
-    <CLASSES>
-      <root url="jar://$USER_HOME$/.ivy2/cache/com.github.cornerman.chameleon/chameleon_sjs0.6_2.12/jars/chameleon_sjs0.6_2.12-7dacc9f.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
