@@ -1,7 +1,3 @@
-// Use Scala.js 0.6.x
-//addSbtPlugin("com.vmunier"                  % "sbt-web-scalajs"           % "1.0.8-0.6")
-//addSbtPlugin("org.scala-js"                 % "sbt-scalajs"               % "0.6.27")
-
 //addSbtPlugin("ch.epfl.scala" % "sbt-web-scalajs-bundler" % "0.15.0-0.6")
 addSbtPlugin("ch.epfl.scala" % "sbt-web-scalajs-bundler" % "0.13.1")
 

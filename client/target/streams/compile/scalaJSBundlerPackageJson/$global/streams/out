@@ -1,3 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0mResolved the following dependencies: List((reconnecting-websocket,4.1.10), (jsdom,9.9.0), (snabbdom,0.7.3 git://github.com/cornerman/snabbdom.git#semver:0.7.3))[0m
-[0m[[0m[0mdebug[0m] [0m[0mResolved the following dependencies: List((source-map-loader,0.2.3), (webpack,4.8.1), (concat-with-sourcemaps,1.0.7), (webpack-cli,2.0.11), (webpack-dev-server,3.1.4))[0m
-[0m[[0m[0mdebug[0m] [0m[0mWriting 'package.json'[0m

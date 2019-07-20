@@ -1,9 +1,0 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/elyphas/PrjsScalaWS/tobuy/client/src/main/scala/manik1/grid/StateGrid.scala:28:57: match may not be exhaustive.[0m
-[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: InsertRow(_), UpdateRow(_, _, _, _)[0m
-[0m[[0m[33mwarn[0m] [0m[0m  val reduce: (State, ActionsGrid) => State = (s, a) => a match {[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                        ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/home/elyphas/PrjsScalaWS/tobuy/client/src/main/scala/manik1/grid/TransformData.scala:19:28: match may not be exhaustive.[0m
-[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: (_, _)[0m
-[0m[[0m[33mwarn[0m] [0m[0m      toMap(genRecord).map { case (k: Symbol, v) =>[0m
-[0m[[0m[33mwarn[0m] [0m[0m                           ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

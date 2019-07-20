@@ -5291,11 +5291,6 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
-reconnecting-websocket@4.1.10:
-  version "4.1.10"
-  resolved "https://registry.yarnpkg.com/reconnecting-websocket/-/reconnecting-websocket-4.1.10.tgz#15485b5c5266ab6dd99187e23e8da207d24c4270"
-  integrity sha512-x6vgqa8q9KRuJyFkOvBKH1TfyTmN5OWQUf1MIsblfOSY29VE+iI9cKqmIuPvg9TO/hUBxdmUIVutDkcdbqFwZg==
-
 redent@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/redent/-/redent-1.0.0.tgz#cf916ab1fd5f1f16dfb20822dd6ec7f730c2afde"
@@ -5728,7 +5723,7 @@ slide@^1.1.5:
   resolved "https://registry.yarnpkg.com/slide/-/slide-1.1.6.tgz#56eb027d65b4d2dce6cb2e2d32c4d4afc9e1d707"
   integrity sha1-VusCfWW00tzmyy4tMsTUr8nh1wc=
 
-"snabbdom@0.7.3 git://github.com/cornerman/snabbdom.git#semver:0.7.3":
+"snabbdom@0.7.3 git://github.com/cornerman/snabbdom.git#semver:0.7.4":
   version "0.7.3"
   resolved "https://registry.yarnpkg.com/snabbdom/-/snabbdom-0.7.3.tgz#27b29b41228779ae5d99696a07edaaff4912fc54"
   integrity sha512-XNh90GQiV36hWdfSL46fIVrSSvmBuZlWk3++qaEgBeQWQJCqTphcbjTODPv8/vyZHJaB3VhePsWfGxi/zBxXyw==

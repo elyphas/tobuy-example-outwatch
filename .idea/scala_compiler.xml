@@ -5,7 +5,7 @@
     <profile name="sbt 1" modules=".jvm-shared,manik_2207,nukul,outwatch_components,searchcatalogs,tobuy" />
     <profile name="sbt 2" modules="shared">
       <parameters>
-        <parameter value="-P:scalajs:mapSourceURI:file:/home/elyphas/PrjsScalaWS/tobuy/shared/src/main/scala/-&gt;54007fdbde3eabba640e/" />
+        <parameter value="-P:scalajs:mapSourceURI:file:/home/elyphas/PrjsScala/tobuy/shared/src/main/scala/-&gt;45de6e6b15378244efcb/" />
       </parameters>
       <plugins>
         <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.5/jars/scalajs-compiler_2.12.5-0.6.23.jar" />
@@ -18,7 +18,7 @@
     </profile>
     <profile name="sbt 4" modules="client">
       <parameters>
-        <parameter value="-P:scalajs:mapSourceURI:file:/home/elyphas/PrjsScalaWS/tobuy/client/src/main/scala/-&gt;e57aa6f6c6284ae440b0/" />
+        <parameter value="-P:scalajs:mapSourceURI:file:/home/elyphas/PrjsScala/tobuy/client/src/main/scala/-&gt;bb5de29966f5e810b7b1/" />
         <parameter value="-P:scalajs:sjsDefinedByDefault" />
       </parameters>
       <plugins>

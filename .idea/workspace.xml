@@ -35,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/scala/manik1/modules/FrmItems.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
+            <state relative-caret-position="1122">
               <caret line="60" column="31" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="31" />
             </state>
           </provider>
@@ -50,11 +50,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.conf">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            <state relative-caret-position="257">
+              <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/main/scala/manik1/manik1/WebServer.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#76#116#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/src/main/scala/manik1/manik1/WebService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#23#66#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shared/src/main/scala/manik1/manik1/shared/TodoItem.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
+            <state relative-caret-position="198">
               <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
             </state>
           </provider>
@@ -71,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/scala/manik1/grid/Grid.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="703">
+            <state relative-caret-position="814">
               <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
             </state>
           </provider>
@@ -80,7 +107,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/scala/manik1/grid/StateGrid.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
+            <state relative-caret-position="616">
               <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
@@ -89,7 +116,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/main/scala/manik1/grid/Domain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="220">
               <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
             </state>
           </provider>
@@ -164,12 +191,10 @@
         <option value="$PROJECT_DIR$/client/src/main/scala/manik1/modules/FrmDatosGralesProceso.scala" />
         <option value="$PROJECT_DIR$/client/src/main/scala/manik1/modules/FrmLstBienes.scala" />
         <option value="$PROJECT_DIR$/client/src/main/scala/manik1/modules/FrmBase.scala" />
-        <option value="$PROJECT_DIR$/build.sbt" />
         <option value="$PROJECT_DIR$/shared/src/main/scala/manik1/manik1/shared/Api.scala" />
         <option value="$PROJECT_DIR$/client/src/main/scala/manik1/grid/Types.scala" />
         <option value="$PROJECT_DIR$/client/src/main/scala/manik1/grid/TransformData.scala" />
         <option value="$PROJECT_DIR$/client/src/main/scala/manik1/inputs/Inputs.scala" />
-        <option value="$PROJECT_DIR$/server/src/main/scala/manik1/manik1/WebService.scala" />
         <option value="$PROJECT_DIR$/server/src/main/assets/stylesheets/main.less" />
         <option value="$PROJECT_DIR$/client/src/main/scala/manik1/grid/GridEditable.scala" />
         <option value="$PROJECT_DIR$/client/src/main/scala/manik1/manik1/ScalaJSExample.scala" />
@@ -180,6 +205,10 @@
         <option value="$PROJECT_DIR$/client/src/main/scala/manik1/grid/Domain.scala" />
         <option value="$PROJECT_DIR$/client/src/main/scala/manik1/grid/StateGrid.scala" />
         <option value="$PROJECT_DIR$/server/src/main/resources/application.conf" />
+        <option value="$PROJECT_DIR$/project/plugins.sbt" />
+        <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/manik1/manik1/WebServer.scala" />
+        <option value="$PROJECT_DIR$/server/src/main/scala/manik1/manik1/WebService.scala" />
       </list>
     </option>
   </component>
@@ -201,6 +230,11 @@
             <path>
               <item name="tobuy" type="b2602c69:ProjectViewProjectNode" />
               <item name="tobuy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tobuy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tobuy" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tobuy" type="b2602c69:ProjectViewProjectNode" />
@@ -227,6 +261,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tobuy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tobuy" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tobuy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tobuy" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="manik1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,24 +318,24 @@
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="sharedJVM [file:/home/elyphas/PrjsScalaWS/tobuy/]" />
-                <option name="path" value="$PROJECT_DIR$/shared/.jvm" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="server [file:/home/elyphas/PrjsScalaWS/tobuy/]" />
+                <option name="name" value="server [file:/home/elyphas/PrjsScala/tobuy/]" />
                 <option name="path" value="$PROJECT_DIR$/server" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="client [file:/home/elyphas/PrjsScalaWS/tobuy/]" />
-                <option name="path" value="$PROJECT_DIR$/client" />
+                <option name="name" value="sharedJS [file:/home/elyphas/PrjsScala/tobuy/]" />
+                <option name="path" value="$PROJECT_DIR$/shared/.js" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="tobuy [file:/home/elyphas/PrjsScalaWS/tobuy/]" />
+                <option name="name" value="tobuy [file:/home/elyphas/PrjsScala/tobuy/]" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
-                <option name="name" value="sharedJS [file:/home/elyphas/PrjsScalaWS/tobuy/]" />
-                <option name="path" value="$PROJECT_DIR$/shared/.js" />
+                <option name="name" value="client [file:/home/elyphas/PrjsScala/tobuy/]" />
+                <option name="path" value="$PROJECT_DIR$/client" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="sharedJVM [file:/home/elyphas/PrjsScala/tobuy/]" />
+                <option name="path" value="$PROJECT_DIR$/shared/.jvm" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="tobuy-sources" />
@@ -301,7 +352,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="380732755" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="4126349850" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="1396028727" />
         <entry key="$PROJECT_DIR$/project/plugins.sbt" value="606161040" />
       </map>
@@ -322,9 +373,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-2" width="1924" height="937" extended-state="6" />
+    <frame x="-2" y="-2" width="1924" height="979" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1696905" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1722103" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -351,7 +403,6 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.less" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/manik1/manik1/shared/ComplexCriteria.scala" />
     <entry file="file://$PROJECT_DIR$/client/src/main/scala/manik1/modules/FrmPedido.scala" />
     <entry file="jar://$USER_HOME$/.ivy2/local/io.github.outwatch/outwatch_sjs0.6_2.12/0.11.1-SNAPSHOT/srcs/outwatch_sjs0.6_2.12-sources.jar!/outwatch/MonixOps.scala">
       <provider selected="true" editor-type-id="text-editor">
@@ -430,23 +481,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/main/scala/postg/views/CViewDatosGralesProceso.scala" />
     <entry file="file://$PROJECT_DIR$/server/src/main/scala/postg/tables/CDatosGralesProceso.scala" />
     <entry file="file://$PROJECT_DIR$/client/src/main/scala/manik1/store/StoreApp.scala" />
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/manik1/manik1/WebServer.scala" />
     <entry file="file://$PROJECT_DIR$/shared/src/main/scala/manik1/manik1/shared/Api.scala" />
     <entry file="file://$PROJECT_DIR$/client/src/main/scala/manik1/grid/Types.scala" />
-    <entry file="file://$PROJECT_DIR$/server/src/main/scala/manik1/manik1/WebService.scala" />
     <entry file="file://$PROJECT_DIR$/client/src/main/scala/manik1/inputs/Inputs.scala" />
     <entry file="file://$PROJECT_DIR$/client/src/main/scala/manik1/grid/TransformData.scala" />
     <entry file="file://$PROJECT_DIR$/server/src/main/assets/stylesheets/main.less" />
@@ -458,24 +497,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/manik1/manik1/shared/TodoItem.scala">
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/manik1/modules/FrmItems.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        <state relative-caret-position="1122">
+          <caret line="60" column="31" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/scala/manik1/modules/FrmItems.scala">
+    <entry file="file://$PROJECT_DIR$/shared/src/main/scala/manik1/manik1/shared/TodoItem.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="60" column="31" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="31" />
+        <state relative-caret-position="198">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/main/scala/manik1/grid/Grid.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
+        <state relative-caret-position="814">
           <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/manik1/grid/StateGrid.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main/scala/manik1/grid/Domain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -486,24 +553,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/scala/manik1/grid/Domain.scala">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="257">
+          <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/main/scala/manik1/grid/StateGrid.scala">
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/manik1/manik1/WebServer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#76#116#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/main/resources/application.conf">
+    <entry file="file://$PROJECT_DIR$/server/src/main/scala/manik1/manik1/WebService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="418">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#23#66#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
