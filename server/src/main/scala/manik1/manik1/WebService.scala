@@ -2,8 +2,8 @@ package manik1.manik1
 
 import akka.http.scaladsl.server.Directives
 import manik1.manik1.twirl.Implicits._
+import scala.util.Failure
 
-/*********Covenant   ***/
 import akka.actor.ActorSystem
 import akka.stream.{ActorMaterializer, OverflowStrategy}
 

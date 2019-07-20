@@ -17,8 +17,14 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
     <orderEntry type="library" name="sbt: org.typelevel:machinist_2.12:0.6.5:jar" level="project" />
     <orderEntry type="module" module-name=".jvm-shared" exported="" />
+=======
+    <orderEntry type="library" name="sbt: com.typesafe:config:1.3.3:jar" level="project" />
+    <orderEntry type="module" module-name=".jvm-shared" exported="" />
+    <orderEntry type="library" name="sbt: org.typelevel:machinist_2.12:0.6.5:jar" level="project" />
+>>>>>>> 4a36d65713ae822083463307fec681f99ae5ebde
     <orderEntry type="library" name="sbt: org.typelevel:cats-macros_2.12:1.4.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-kernel_2.12:1.4.0:jar" level="project" />
     <orderEntry type="library" name="sbt: org.typelevel:cats-core_2.12:1.4.0:jar" level="project" />
@@ -28,7 +34,10 @@
     <orderEntry type="library" name="sbt: org.scala-lang:scala-reflect:2.12.5:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.5:jar" level="project" />
     <orderEntry type="library" name="sbt: org.reactivestreams:reactive-streams:1.0.2:jar" level="project" />
+<<<<<<< HEAD
     <orderEntry type="library" name="sbt: io.suzaku:boopickle_2.12:1.3.1:jar" level="project" />
+=======
+>>>>>>> 4a36d65713ae822083463307fec681f99ae5ebde
     <orderEntry type="library" name="sbt: com.vmunier:scalajs-scripts_2.12:1.1.2:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.play:twirl-api_2.12:1.3.15:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.akka:akka-stream_2.12:2.5.19:jar" level="project" />
@@ -38,6 +47,9 @@
     <orderEntry type="library" name="sbt: com.typesafe.akka:akka-http-core_2.12:10.1.1:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe.akka:akka-actor_2.12:2.5.19:jar" level="project" />
     <orderEntry type="library" name="sbt: com.typesafe:ssl-config-core_2.12:0.3.6:jar" level="project" />
+<<<<<<< HEAD
     <orderEntry type="library" name="sbt: com.typesafe:config:1.3.3:jar" level="project" />
+=======
+>>>>>>> 4a36d65713ae822083463307fec681f99ae5ebde
   </component>
 </module>

@@ -20,7 +20,6 @@ lazy val server = (project in file("server"))
       "com.vmunier" %% "scalajs-scripts" % "1.1.2",
     ),
     WebKeys.packagePrefix in Assets := "public/",
-    //sourceDirectories in (Compile, TwirlKeys.compileTemplates) := (unmanagedSourceDirectories in Compile).value,
     managedClasspath in Runtime += (packageBin in Assets).value,
     addCompilerPlugin("com.olegpy" %% "better-monadic-for" % "0.3.0-M4"),
     javaOptions in run += "-Xms4G -Xmx8G",    //-XX:MaxPermSize=1024M,
@@ -60,8 +59,6 @@ lazy val shared = crossProject(JSPlatform, JVMPlatform)
   .settings(commonSettings)
   .settings(
     libraryDependencies ++= Seq(
-      //"com.lihaoyi" %%% "autowire" % "0.2.6",
-      "io.suzaku" %%% "boopickle" % "1.3.1",  //"1.2.6",
       "org.typelevel" %% "cats-core" % "1.4.0",
       "com.typesafe.akka" %% "akka-actor" % "2.5.19",
     )
